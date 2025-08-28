@@ -1,0 +1,452 @@
+{
+  "20250829": [
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "1100",
+      "remSeatCnt": "123",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "1410",
+      "remSeatCnt": "118",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "1640",
+      "remSeatCnt": "120",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "1950",
+      "remSeatCnt": "109",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "2300",
+      "remSeatCnt": "119",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "0930",
+      "remSeatCnt": "147",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1240",
+      "remSeatCnt": "148",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1545",
+      "remSeatCnt": "142",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1850",
+      "remSeatCnt": "127",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "2200",
+      "remSeatCnt": "132",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "F1 더 무비",
+      "movieRating": "12세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "1000",
+      "remSeatCnt": "100",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "노바디2",
+      "movieRating": "청소년관람불가",
+      "hallName": "6관",
+      "scnStartTm": "1310",
+      "remSeatCnt": "105",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "1510",
+      "remSeatCnt": "102",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "1740",
+      "remSeatCnt": "104",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "2050",
+      "remSeatCnt": "100",
+      "scnTypeNm": "2D"
+    }
+  ],
+  "20250830": [
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "1120",
+      "remSeatCnt": "116",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "1425",
+      "remSeatCnt": "117",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "1730",
+      "remSeatCnt": "121",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "2040",
+      "remSeatCnt": "123",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "노바디2",
+      "movieRating": "청소년관람불가",
+      "hallName": "2관",
+      "scnStartTm": "2300",
+      "remSeatCnt": "123",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1020",
+      "remSeatCnt": "136",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1325",
+      "remSeatCnt": "132",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1630",
+      "remSeatCnt": "123",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1935",
+      "remSeatCnt": "134",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "2240",
+      "remSeatCnt": "144",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "0930",
+      "remSeatCnt": "98",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "F1 더 무비",
+      "movieRating": "12세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "1230",
+      "remSeatCnt": "98",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "1530",
+      "remSeatCnt": "91",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "1835",
+      "remSeatCnt": "100",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "2140",
+      "remSeatCnt": "106",
+      "scnTypeNm": "2D"
+    }
+  ],
+  "20250831": [
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "0900",
+      "remSeatCnt": "120",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "F1 더 무비",
+      "movieRating": "12세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "1210",
+      "remSeatCnt": "118",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "1515",
+      "remSeatCnt": "112",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "1820",
+      "remSeatCnt": "123",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "2관",
+      "scnStartTm": "2130",
+      "remSeatCnt": "123",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "노바디2",
+      "movieRating": "청소년관람불가",
+      "hallName": "3관",
+      "scnStartTm": "0930",
+      "remSeatCnt": "148",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1130",
+      "remSeatCnt": "148",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1440",
+      "remSeatCnt": "136",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1720",
+      "remSeatCnt": "148",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "2030",
+      "remSeatCnt": "148",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "1000",
+      "remSeatCnt": "77",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "1310",
+      "remSeatCnt": "93",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "1615",
+      "remSeatCnt": "98",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "1920",
+      "remSeatCnt": "104",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "6관",
+      "scnStartTm": "2230",
+      "remSeatCnt": "104",
+      "scnTypeNm": "2D"
+    }
+  ],
+  "20250901": [
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "0930",
+      "remSeatCnt": "146",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1235",
+      "remSeatCnt": "148",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1540",
+      "remSeatCnt": "148",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1850",
+      "remSeatCnt": "146",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "2200",
+      "remSeatCnt": "148",
+      "scnTypeNm": "2D"
+    }
+  ],
+  "20250902": [
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "0930",
+      "remSeatCnt": "148",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1235",
+      "remSeatCnt": "146",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1540",
+      "remSeatCnt": "148",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "1850",
+      "remSeatCnt": "148",
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날-무한성편",
+      "movieRating": "15세이상관람가",
+      "hallName": "3관",
+      "scnStartTm": "2200",
+      "remSeatCnt": "146",
+      "scnTypeNm": "2D"
+    }
+  ]
+}

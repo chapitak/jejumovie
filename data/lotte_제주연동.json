@@ -1,0 +1,700 @@
+{
+  "2025-08-29": [
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "4관",
+      "scnStartTm": "21:10",
+      "remSeatCnt": 28,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "4관",
+      "scnStartTm": "14:50",
+      "remSeatCnt": 20,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "4관",
+      "scnStartTm": "18:00",
+      "remSeatCnt": 29,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "6관",
+      "scnStartTm": "16:25",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "6관",
+      "scnStartTm": "19:35",
+      "remSeatCnt": 8,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "6관",
+      "scnStartTm": "22:45",
+      "remSeatCnt": 4,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "5관",
+      "scnStartTm": "10:50",
+      "remSeatCnt": 11,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "5관",
+      "scnStartTm": "14:00",
+      "remSeatCnt": 5,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "5관",
+      "scnStartTm": "17:10",
+      "remSeatCnt": 4,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "5관",
+      "scnStartTm": "20:20",
+      "remSeatCnt": 13,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "6관",
+      "scnStartTm": "13:15",
+      "remSeatCnt": 5,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "3관",
+      "scnStartTm": "12:25",
+      "remSeatCnt": 1,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "3관",
+      "scnStartTm": "15:35",
+      "remSeatCnt": 1,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "3관",
+      "scnStartTm": "18:45",
+      "remSeatCnt": 9,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "3관",
+      "scnStartTm": "21:55",
+      "remSeatCnt": 17,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "1관",
+      "scnStartTm": "10:30",
+      "remSeatCnt": 6,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "1관",
+      "scnStartTm": "13:00",
+      "remSeatCnt": 5,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "1관",
+      "scnStartTm": "18:10",
+      "remSeatCnt": 8,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "5관",
+      "scnStartTm": "23:30",
+      "remSeatCnt": 2,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "F1 더 무비",
+      "movieRating": "12",
+      "hallName": "2관",
+      "scnStartTm": "13:25",
+      "remSeatCnt": 2,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "F1 더 무비",
+      "movieRating": "12",
+      "hallName": "2관",
+      "scnStartTm": "22:30",
+      "remSeatCnt": 26,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "F1 더 무비",
+      "movieRating": "12",
+      "hallName": "4관",
+      "scnStartTm": "11:40",
+      "remSeatCnt": 4,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "첫사랑 엔딩",
+      "movieRating": "전체",
+      "hallName": "1관",
+      "scnStartTm": "15:50",
+      "remSeatCnt": 8,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "첫사랑 엔딩",
+      "movieRating": "전체",
+      "hallName": "1관",
+      "scnStartTm": "23:15",
+      "remSeatCnt": 1,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "그랑 메종 파리",
+      "movieRating": "12",
+      "hallName": "1관",
+      "scnStartTm": "20:40",
+      "remSeatCnt": 5,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "그랑 메종 파리",
+      "movieRating": "12",
+      "hallName": "6관",
+      "scnStartTm": "10:40",
+      "remSeatCnt": 2,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "프리키 프라이데이 2",
+      "movieRating": "12",
+      "hallName": "2관",
+      "scnStartTm": "11:00",
+      "remSeatCnt": 6,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "프리키 프라이데이 2",
+      "movieRating": "12",
+      "hallName": "2관",
+      "scnStartTm": "16:35",
+      "remSeatCnt": 1,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "2025 제주영화제 : 릴로 & 스티치",
+      "movieRating": "전체",
+      "hallName": "2관",
+      "scnStartTm": "19:30",
+      "remSeatCnt": 50,
+      "scnTypeNm": "2D"
+    }
+  ],
+  "2025-08-30": [
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "4관",
+      "scnStartTm": "13:15",
+      "remSeatCnt": 9,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "4관",
+      "scnStartTm": "16:25",
+      "remSeatCnt": 14,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "4관",
+      "scnStartTm": "19:35",
+      "remSeatCnt": 6,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "4관",
+      "scnStartTm": "22:45",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "5관",
+      "scnStartTm": "12:25",
+      "remSeatCnt": 3,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "5관",
+      "scnStartTm": "15:35",
+      "remSeatCnt": 6,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "1관",
+      "scnStartTm": "14:50",
+      "remSeatCnt": 2,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "1관",
+      "scnStartTm": "18:00",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "3관",
+      "scnStartTm": "10:55",
+      "remSeatCnt": 18,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "3관",
+      "scnStartTm": "14:05",
+      "remSeatCnt": 16,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "3관",
+      "scnStartTm": "17:15",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "3관",
+      "scnStartTm": "20:25",
+      "remSeatCnt": 13,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "5관",
+      "scnStartTm": "18:45",
+      "remSeatCnt": 10,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "5관",
+      "scnStartTm": "21:55",
+      "remSeatCnt": 3,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "2관",
+      "scnStartTm": "18:20",
+      "remSeatCnt": 4,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "2관",
+      "scnStartTm": "20:50",
+      "remSeatCnt": 1,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "2관",
+      "scnStartTm": "23:20",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "6관",
+      "scnStartTm": "11:00",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "6관",
+      "scnStartTm": "13:30",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "F1 더 무비",
+      "movieRating": "12",
+      "hallName": "2관",
+      "scnStartTm": "11:20",
+      "remSeatCnt": 6,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "F1 더 무비",
+      "movieRating": "12",
+      "hallName": "6관",
+      "scnStartTm": "16:05",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "F1 더 무비",
+      "movieRating": "12",
+      "hallName": "6관",
+      "scnStartTm": "19:15",
+      "remSeatCnt": 3,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "F1 더 무비",
+      "movieRating": "12",
+      "hallName": "6관",
+      "scnStartTm": "22:25",
+      "remSeatCnt": 1,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "첫사랑 엔딩",
+      "movieRating": "전체",
+      "hallName": "3관",
+      "scnStartTm": "23:35",
+      "remSeatCnt": 1,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "그랑 메종 파리",
+      "movieRating": "12",
+      "hallName": "4관",
+      "scnStartTm": "10:40",
+      "remSeatCnt": 4,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "그랑 메종 파리",
+      "movieRating": "12",
+      "hallName": "1관",
+      "scnStartTm": "21:20",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "프리키 프라이데이 2",
+      "movieRating": "12",
+      "hallName": "1관",
+      "scnStartTm": "10:30",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "고고다이노 극장판: 게코도마뱀의 꿈",
+      "movieRating": "전체",
+      "hallName": "5관",
+      "scnStartTm": "10:35",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "아기돼지 3형제: 도넛별 대모험",
+      "movieRating": "전체",
+      "hallName": "1관",
+      "scnStartTm": "13:00",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "2025 제주영화제 : 씨그널: 바다의 마지막 신호",
+      "movieRating": "전체",
+      "hallName": "2관",
+      "scnStartTm": "15:00",
+      "remSeatCnt": 55,
+      "scnTypeNm": "2D"
+    }
+  ],
+  "2025-08-31": [
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "4관",
+      "scnStartTm": "14:25",
+      "remSeatCnt": 20,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "4관",
+      "scnStartTm": "20:45",
+      "remSeatCnt": 6,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "5관",
+      "scnStartTm": "10:30",
+      "remSeatCnt": 11,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "5관",
+      "scnStartTm": "13:40",
+      "remSeatCnt": 11,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "5관",
+      "scnStartTm": "16:50",
+      "remSeatCnt": 2,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "5관",
+      "scnStartTm": "20:00",
+      "remSeatCnt": 8,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "6관",
+      "scnStartTm": "19:10",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "3관",
+      "scnStartTm": "12:00",
+      "remSeatCnt": 9,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "3관",
+      "scnStartTm": "15:10",
+      "remSeatCnt": 8,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "극장판 귀멸의 칼날: 무한성편",
+      "movieRating": "15",
+      "hallName": "3관",
+      "scnStartTm": "18:20",
+      "remSeatCnt": 3,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "1관",
+      "scnStartTm": "10:35",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "1관",
+      "scnStartTm": "13:05",
+      "remSeatCnt": 2,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "1관",
+      "scnStartTm": "15:35",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "1관",
+      "scnStartTm": "18:05",
+      "remSeatCnt": 1,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "좀비딸",
+      "movieRating": "12",
+      "hallName": "1관",
+      "scnStartTm": "20:35",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "F1 더 무비",
+      "movieRating": "12",
+      "hallName": "4관",
+      "scnStartTm": "11:00",
+      "remSeatCnt": 4,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "F1 더 무비",
+      "movieRating": "12",
+      "hallName": "4관",
+      "scnStartTm": "17:35",
+      "remSeatCnt": 1,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "F1 더 무비",
+      "movieRating": "12",
+      "hallName": "6관",
+      "scnStartTm": "16:00",
+      "remSeatCnt": 2,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "첫사랑 엔딩",
+      "movieRating": "전체",
+      "hallName": "3관",
+      "scnStartTm": "21:30",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "그랑 메종 파리",
+      "movieRating": "12",
+      "hallName": "2관",
+      "scnStartTm": "15:45",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "그랑 메종 파리",
+      "movieRating": "12",
+      "hallName": "6관",
+      "scnStartTm": "11:35",
+      "remSeatCnt": 3,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "프리키 프라이데이 2",
+      "movieRating": "12",
+      "hallName": "2관",
+      "scnStartTm": "13:15",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "아기돼지 3형제: 도넛별 대모험",
+      "movieRating": "전체",
+      "hallName": "6관",
+      "scnStartTm": "14:10",
+      "remSeatCnt": 0,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "2025 제주영화제 : 인생 세탁소",
+      "movieRating": "전체",
+      "hallName": "2관",
+      "scnStartTm": "10:00",
+      "remSeatCnt": 43,
+      "scnTypeNm": "2D"
+    },
+    {
+      "movNm": "2025 제주영화제 : 제20회 제주영화제 트멍 초청",
+      "movieRating": "전체",
+      "hallName": "2관",
+      "scnStartTm": "19:30",
+      "remSeatCnt": 32,
+      "scnTypeNm": "2D"
+    }
+  ],
+  "2025-09-01": [
+    {
+      "movNm": "2025 제주영화제 : 이처럼 사소한 것들",
+      "movieRating": "12",
+      "hallName": "2관",
+      "scnStartTm": "19:30",
+      "remSeatCnt": 43,
+      "scnTypeNm": "2D"
+    }
+  ],
+  "2025-09-02": [
+    {
+      "movNm": "2025 제주영화제 : 해피엔드",
+      "movieRating": "15",
+      "hallName": "2관",
+      "scnStartTm": "19:30",
+      "remSeatCnt": 37,
+      "scnTypeNm": "2D"
+    }
+  ]
+}
