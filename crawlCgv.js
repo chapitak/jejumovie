@@ -107,7 +107,7 @@ async function fetchCgvSchedule(siteNo, scnYmd, xSignature, xTimestamp, cookie, 
         const data = response.data;
 
         if (data && Array.isArray(data.data)) { // data.data가 배열인지 확인
-            data.data.forEach(schedule => { // data.data 배열을 직접 순회 (각 요소가 스케줄 객체)
+            data.data.forEach(schedule => {
                 movieSchedules.push({
                     movNm: schedule.expoProdNm, // 영화 이름
                     movieRating: schedule.cratgClsNm, // 관람 등급
@@ -128,8 +128,8 @@ async function fetchCgvSchedule(siteNo, scnYmd, xSignature, xTimestamp, cookie, 
 
 async function crawlCgv() {
     const branches = [
-        { name: "제주", code: "0259" },
-        { name: "제주노형", code: "0302" }
+        { name: "Jeju", code: "0259" }, // 파일 이름을 영어로 변경
+        { name: "JejuNohyeong", code: "0302" } // 파일 이름을 영어로 변경
     ];
 
     const dates = [];
@@ -143,33 +143,34 @@ async function crawlCgv() {
         dates.push(`${year}${month}${day}`);
     }
 
-    // x-signature와 x-timestamp를 한 번만 얻습니다.
-    console.log('Getting authentication headers...');
+    console.log('Getting authentication headers for CGV...');
     const authHeaders = await getAuthHeaders();
 
     if (!authHeaders) {
-        console.error('Failed to get authentication headers. Exiting.');
-        return;
+        console.error('Failed to get authentication headers for CGV. Exiting.');
+        return {}; // 빈 객체 반환
     }
-    const { xSignature, xTimestamp, cookie, referer } = authHeaders; // Destructure cookie and referer
-    console.log('Authentication headers obtained.');
+    const { xSignature, xTimestamp, cookie, referer } = authHeaders;
+    console.log('Authentication headers obtained for CGV.');
 
+    const cgvData = {};
     for (const branch of branches) {
         const allSchedulesForBranch = {};
         for (const date of dates) {
             console.log(`Fetching schedules for CGV ${branch.name} on ${date}...`);
-            // fetchCgvSchedule에 xSignature, xTimestamp, cookie, referer 전달
             const movieSchedules = await fetchCgvSchedule(branch.code, date, xSignature, xTimestamp, cookie, referer);
             allSchedulesForBranch[date] = movieSchedules;
         }
-        const filePath = path.join(__dirname, 'data', `cgv_${branch.name}.json`);
-        fs.writeFileSync(filePath, JSON.stringify(allSchedulesForBranch, null, 2), 'utf8');
-        console.log(`CGV ${branch.name} data saved to ${filePath}`);
+        cgvData[branch.name] = allSchedulesForBranch; // 지점 이름(영어)으로 데이터 저장
     }
+    return cgvData; // 크롤링 결과 반환
 }
 
 if (require.main === module) {
-    crawlCgv();
+    crawlCgv().then(data => {
+        // 이 부분은 crawlAll.js에서 처리할 것이므로, 여기서는 간단히 로그만 남깁니다.
+        console.log('CGV crawling completed. Data:', JSON.stringify(data, null, 2));
+    });
 }
 
 module.exports = crawlCgv;

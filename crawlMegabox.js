@@ -43,13 +43,13 @@ async function fetchMegaboxSchedule(brchNo, playDe) {
 
 async function crawlMegabox() {
     const branches = [
-        { name: "제주삼화", code: "0059" },
-        { name: "제주아라", code: "0066" },
-        { name: "제주서귀포", code: "0054" }
+        { name: "Samhwa", code: "0059" }, // 영어 이름으로 변경
+        { name: "Ara", code: "0066" }, // 영어 이름으로 변경
+        { name: "Seogwipo", code: "0054" } // 영어 이름으로 변경
     ];
 
     const dates = [];
-    const today = new Date('2025-08-28'); // Use the provided date as the starting point
+    const today = new Date(); // 현재 날짜부터 시작
     for (let i = 0; i < 5; i++) {
         const d = new Date(today);
         d.setDate(today.getDate() + i);
@@ -59,33 +59,31 @@ async function crawlMegabox() {
         dates.push(`${year}${month}${day}`);
     }
 
+    const megaboxData = {};
     for (const branch of branches) {
         const allSchedulesForBranch = {};
         for (const date of dates) {
-            console.log(`Fetching schedules for ${branch.name} on ${date}...`);
+            console.log(`Fetching schedules for Megabox ${branch.name} on ${date}...`);
             const movieSchedules = await fetchMegaboxSchedule(branch.code, date);
             allSchedulesForBranch[date] = movieSchedules.map(movie => ({
-                brchNo: movie.brchNo,
-                brchNm: movie.brchNm,
-                movieNm: movie.movieNm,
-                playStartTime: movie.playStartTime,
-                playEndTime: movie.playEndTime,
-                theabExpoNm: movie.theabExpoNm,
-                restSeatCnt: movie.restSeatCnt,
-                totSeatCnt: movie.totSeatCnt,
-                admisClassCdNm: movie.admisClassCdNm,
-                playKindNm: movie.playKindNm,
-                playDe: movie.playDe // Add playDe to each movie object
+                movNm: movie.movieNm, // 영화 이름
+                movieRating: movie.admisClassCdNm, // 관람 등급
+                hallName: movie.theabExpoNm, // 상영관 이름
+                scnStartTm: movie.playStartTime, // 상영 시작 시간
+                remSeatCnt: movie.restSeatCnt, // 잔여 좌석 수
+                scnTypeNm: movie.playKindNm // 상영 타입 (2D, 3D 등)
             }));
         }
-        const filePath = path.join(__dirname, 'data', `megabox_${branch.name}.json`);
-        fs.writeFileSync(filePath, JSON.stringify(allSchedulesForBranch, null, 2), 'utf8');
-        console.log(`Megabox ${branch.name} data saved to ${filePath}`);
+        megaboxData[branch.name] = allSchedulesForBranch; // 지점 이름(영어)으로 데이터 저장
     }
+    return megaboxData; // 크롤링 결과 반환
 }
 
 if (require.main === module) {
-    crawlMegabox();
+    crawlMegabox().then(data => {
+        // 이 부분은 crawlAll.js에서 처리할 것이므로, 여기서는 간단히 로그만 남깁니다.
+        console.log('Megabox crawling completed. Data:', JSON.stringify(data, null, 2));
+    });
 }
 
 module.exports = crawlMegabox;

@@ -62,8 +62,8 @@ async function fetchLotteSchedule(cinemaId, date) {
 
 async function crawlLotte() {
     const branches = [
-        { name: "제주연동", id: "1|0007|6010" },
-        { name: "서귀포", id: "1|0007|9013" }
+        { name: "JejuYeonDong", id: "1|0007|6010" }, // 파일 이름을 영어로 변경
+        { name: "Seogwipo", id: "1|0007|9013" } // 파일 이름을 영어로 변경
     ];
 
     const dates = [];
@@ -74,9 +74,10 @@ async function crawlLotte() {
         const year = d.getFullYear();
         const month = String(d.getMonth() + 1).padStart(2, '0');
         const day = String(d.getDate()).padStart(2, '0');
-        dates.push(`${year}-${month}-${day}`); // Lotte Cinema date format: YYYY-MM-DD
+        dates.push(`${year}${month}${day}`); // Lotte Cinema date format: YYYYMMDD
     }
 
+    const lotteData = {};
     for (const branch of branches) {
         const allSchedulesForBranch = {};
         for (const date of dates) {
@@ -84,14 +85,16 @@ async function crawlLotte() {
             const movieSchedules = await fetchLotteSchedule(branch.id, date);
             allSchedulesForBranch[date] = movieSchedules;
         }
-        const filePath = path.join(__dirname, 'data', `lotte_${branch.name}.json`);
-        fs.writeFileSync(filePath, JSON.stringify(allSchedulesForBranch, null, 2), 'utf8');
-        console.log(`Lotte Cinema ${branch.name} data saved to ${filePath}`);
+        lotteData[branch.name] = allSchedulesForBranch; // 지점 이름(영어)으로 데이터 저장
     }
+    return lotteData; // 크롤링 결과 반환
 }
 
 if (require.main === module) {
-    crawlLotte();
+    crawlLotte().then(data => {
+        // 이 부분은 crawlAll.js에서 처리할 것이므로, 여기서는 간단히 로그만 남깁니다.
+        console.log('Lotte Cinema crawling completed. Data:', JSON.stringify(data, null, 2));
+    });
 }
 
 module.exports = crawlLotte;
