@@ -33,22 +33,23 @@ async function crawlAll() {
             schedules[date].forEach(schedule => {
                 const movieName = schedule.movNm;
                 if (!finalMovieData[movieName]) {
-                    finalMovieData[movieName] = {};
-                }
-                if (!finalMovieData[movieName][date]) {
-                    finalMovieData[movieName][date] = [];
+                    finalMovieData[movieName] = []; // 배열로 초기화
                 }
                 const newEntry = {
                     branch: branchNameKr, // 한글 지점 이름 사용
-                    theater: theaterNameKr // 한글 영화관 브랜드 이름 사용
+                    theater: theaterNameKr, // 한글 영화관 브랜드 이름 사용
+                    date: date // 날짜 정보 추가
                 };
-                // 중복 확인: 이미 동일한 branch와 theater를 가진 항목이 있는지 확인
-                const isDuplicate = finalMovieData[movieName][date].some(
-                    existingEntry => existingEntry.branch === newEntry.branch && existingEntry.theater === newEntry.theater
+                // 중복 확인: 이미 동일한 branch, theater, date를 가진 항목이 있는지 확인
+                const isDuplicate = finalMovieData[movieName].some(
+                    existingEntry =>
+                        existingEntry.branch === newEntry.branch &&
+                        existingEntry.theater === newEntry.theater &&
+                        existingEntry.date === newEntry.date
                 );
 
                 if (!isDuplicate) {
-                    finalMovieData[movieName][date].push(newEntry);
+                    finalMovieData[movieName].push(newEntry);
                 }
             });
         }

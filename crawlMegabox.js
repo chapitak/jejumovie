@@ -2,6 +2,21 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
+// HTML 엔티티를 디코딩하는 헬퍼 함수
+function decodeHtmlEntities(text) {
+    const entities = {
+        '&#40;': '(',
+        '&#41;': ')',
+        '&amp;': '&',
+        '&lt;': '<',
+        '&gt;': '>',
+        '&quot;': '"',
+        '&#39;': "'",
+        // 필요한 다른 엔티티들을 여기에 추가할 수 있습니다.
+    };
+    return text.replace(/&#?\w+;/g, match => entities[match] || match);
+}
+
 async function fetchMegaboxSchedule(brchNo, playDe) {
     const url = "https://m.megabox.co.kr/on/oh/ohb/SimpleBooking/selectBokdList.do";
     const payload = {
@@ -21,7 +36,7 @@ async function fetchMegaboxSchedule(brchNo, playDe) {
                 'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
                 'Connection': 'keep-alive',
                 'Content-Type': 'application/json; charset=UTF-8',
-                'Cookie': '_ga=GA1.1.708301514.1755678764; _ga_MLS6F37TQM=GS2.1.s1756371156$o2$g1$t1756371180$j36$l0$h0; SCOUTER=zhq8kuihm82lf; WMONID=VxTXByBZqDO; JSESSIONID=rEfnXGYp25JXjt5y9SpFPQoiAx9QwavaoBhKSZGOILBK7o3ElpVHLoc0yeaQlTbW.b25fbWVnYWJveF9kb21haW4vbWVnYS1vbi1zZXJ2ZXI4; SESSION=NDYxNDM3ZDQtMTQyMy00OGZkLWE4MjctZDU3OGFkNzgwZDA4; _ga_5JL3VPLV2E=GS2.1.s1756371141$o3$g1$t1756371659$j56$l0$h0; _ga_LKZN3J8B1J=GS2.1.s1756371141$o3$g1$t1756371659$j56$l0$h0',
+                'Cookie': '_ga=GA1.1.708301514.1755678764; _ga_MLS6F37TQM=GS2.1.s1756371156$o2$g1$t1756371180$j36$l0$h0; SCOUTER=zhq8kuihm82lf; WMONID=VxTXByBZqDO; JSESSIONID=rEfnXGYp25JXjt5y9SpFPQoiAx3QwavaoBhKSZGOILBK7o3ElpVHLoc0yeaQlTbW.b25fbWVnYWJveF9kb21haW4vbWVnYS1vbi1sZXNlci04; SESSION=NDYxNDM3ZDQtMTQyMy00OGZkLWE4MjctZDU3OGFkNzgwZDA4; _ga_5JL3VPLV2E=GS2.1.s1756371141$o3$g1$t1756371659$j56$l0$h0; _ga_LKZN3J8B1J=GS2.1.s1756371141$o3$g1$t1756371659$j56$l0$h0',
                 'Host': 'megabox.co.kr',
                 'Origin': 'https://megabox.co.kr',
                 'Referer': 'https://megabox.co.kr/on/oh/ohb/SimpleBooking/simpleBookingPage.do?rpstMovieNo=&theabKindCode1=&brchNo1=&sellChnlCd=&playDe=&naverPlaySchdlNo=',
@@ -66,7 +81,7 @@ async function crawlMegabox() {
             console.log(`Fetching schedules for Megabox ${branch.name} on ${date}...`);
             const movieSchedules = await fetchMegaboxSchedule(branch.code, date);
             allSchedulesForBranch[date] = movieSchedules.map(movie => ({
-                movNm: movie.movieNm, // 영화 이름
+                movNm: decodeHtmlEntities(movie.movieNm), // 영화 이름 디코딩 적용
                 movieRating: movie.admisClassCdNm, // 관람 등급
                 hallName: movie.theabExpoNm, // 상영관 이름
                 scnStartTm: movie.playStartTime, // 상영 시작 시간
