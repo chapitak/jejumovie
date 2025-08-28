@@ -1,0 +1,110 @@
+[
+  {
+    "brchNo": "0059",
+    "brchNm": "제주삼화",
+    "movieNm": "극장판 귀멸의 칼날: 무한성편",
+    "playStartTime": "20:00",
+    "playEndTime": "22:45",
+    "theabExpoNm": "1관[Laser]",
+    "restSeatCnt": 111,
+    "totSeatCnt": 114,
+    "admisClassCdNm": "15세이상관람가",
+    "playKindNm": "2D&#40;자막&#41;"
+  },
+  {
+    "brchNo": "0059",
+    "brchNm": "제주삼화",
+    "movieNm": "극장판 귀멸의 칼날: 무한성편",
+    "playStartTime": "21:30",
+    "playEndTime": "24:15",
+    "theabExpoNm": "2관[Laser]",
+    "restSeatCnt": 116,
+    "totSeatCnt": 116,
+    "admisClassCdNm": "15세이상관람가",
+    "playKindNm": "2D&#40;자막&#41;"
+  },
+  {
+    "brchNo": "0059",
+    "brchNm": "제주삼화",
+    "movieNm": "극장판 귀멸의 칼날: 무한성편",
+    "playStartTime": "21:00",
+    "playEndTime": "23:45",
+    "theabExpoNm": "컴포트 3관&#40;리클라이너&#41;[Laser]",
+    "restSeatCnt": 46,
+    "totSeatCnt": 56,
+    "admisClassCdNm": "15세이상관람가",
+    "playKindNm": "2D&#40;자막&#41;"
+  },
+  {
+    "brchNo": "0059",
+    "brchNm": "제주삼화",
+    "movieNm": "극장판 귀멸의 칼날: 무한성편",
+    "playStartTime": "18:55",
+    "playEndTime": "21:40",
+    "theabExpoNm": "컴포트 4관&#40;리클라이너&#41;[Laser]",
+    "restSeatCnt": 49,
+    "totSeatCnt": 56,
+    "admisClassCdNm": "15세이상관람가",
+    "playKindNm": "2D&#40;자막&#41;"
+  },
+  {
+    "brchNo": "0059",
+    "brchNm": "제주삼화",
+    "movieNm": "극장판 귀멸의 칼날: 무한성편",
+    "playStartTime": "22:00",
+    "playEndTime": "24:45",
+    "theabExpoNm": "컴포트 4관&#40;리클라이너&#41;[Laser]",
+    "restSeatCnt": 52,
+    "totSeatCnt": 56,
+    "admisClassCdNm": "15세이상관람가",
+    "playKindNm": "2D&#40;자막&#41;"
+  },
+  {
+    "brchNo": "0059",
+    "brchNm": "제주삼화",
+    "movieNm": "극장판 귀멸의 칼날: 무한성편",
+    "playStartTime": "19:25",
+    "playEndTime": "22:10",
+    "theabExpoNm": "컴포트 5관&#40;리클라이너&#41;",
+    "restSeatCnt": 18,
+    "totSeatCnt": 30,
+    "admisClassCdNm": "15세이상관람가",
+    "playKindNm": "2D&#40;자막&#41;"
+  },
+  {
+    "brchNo": "0059",
+    "brchNm": "제주삼화",
+    "movieNm": "좀비딸",
+    "playStartTime": "23:00",
+    "playEndTime": "25:04",
+    "theabExpoNm": "1관[Laser]",
+    "restSeatCnt": 114,
+    "totSeatCnt": 114,
+    "admisClassCdNm": "12세이상관람가",
+    "playKindNm": "2D"
+  },
+  {
+    "brchNo": "0059",
+    "brchNm": "제주삼화",
+    "movieNm": "좀비딸",
+    "playStartTime": "19:10",
+    "playEndTime": "21:14",
+    "theabExpoNm": "2관[Laser]",
+    "restSeatCnt": 114,
+    "totSeatCnt": 116,
+    "admisClassCdNm": "12세이상관람가",
+    "playKindNm": "2D"
+  },
+  {
+    "brchNo": "0059",
+    "brchNm": "제주삼화",
+    "movieNm": "F1 더 무비",
+    "playStartTime": "22:30",
+    "playEndTime": "25:15",
+    "theabExpoNm": "컴포트 5관&#40;리클라이너&#41;",
+    "restSeatCnt": 29,
+    "totSeatCnt": 30,
+    "admisClassCdNm": "12세이상관람가",
+    "playKindNm": "2D&#40;자막&#41;"
+  }
+]

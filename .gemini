@@ -1,0 +1,23 @@
+# .gemini - Gemini CLI Configuration File
+### 데이터 수집
+
+- **Node.js 스크립트**로 각 극장 웹페이지를 크롤링(메가박스 삼화점, 아라점, 서귀포점, 롯데시네마 연동점,  cgv 제주점, 제주노형점, 한림작은영화관)
+- 크롤링 라이브러리: **axios + cheerio** (HTML 파싱 표준)
+- 크롤링 결과를 **JSON 파일**(`data/movies.json`)로 저장
+
+### 정적 웹사이트
+
+- **Framework**: Next.js (정적 사이트 내보내기 가능, 구조 단순, React 기반이라 확장성 有)
+    
+    → 단순히 HTML만 필요하다면 Vite + React 조합도 가능하지만, Next.js가 배포/SSG 지원이 편함
+    
+- 정적 페이지는 `movies.json`을 불러와 상영 시간표 렌더링
+- UI는 TailwindCSS 사용 (빠른 프로토타입 제작 가능)
+
+### 배포 & 자동 갱신
+
+- **Netlify** 사용
+- Netlify Scheduled Functions → 매일 오전 6시 빌드 트리거
+- 빌드시: `npm run crawl && npm run build`
+    - `crawl`: Node.js 크롤링 스크립트 실행, `movies.json` 생성
+    - `build`: Next.js 정적 빌드 → 최신 데이터 반영
