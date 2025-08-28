@@ -33,12 +33,12 @@ async function fetchLotteSchedule(cinemaId, date) {
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-origin',
         'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36'
-        // 'cookie': 'WMONID=5Fq_XIWZJlf; TS01570c53=01337fb469bb0a739017e29eb1197bf256d89a1f8e29c3690d9abf45ac3e12a61e8da703be83a4e16b2b51cba612553adb336fdd4e; ASP.NET_SessionId=4gpclbuod4fonpqwazy2vzfc; AD_DMC=1; TS019bdbd5=01337fb469bb0a739017e29eb1197bf256d89a1f8e29c3690d9abf45ac3e12a61e8da703be83a4e16b2b51cba612553adb336fdd4e; _gid=GA1.3.329965795.1756397698; _dc_gtm_UA-106764115-1=1; _ga_V1QXBM747X=GS2.1.s1756397698$o1$g1$t1756397701$j57$l0$h0; _ga=GA1.3.952266224.1756397698' // 쿠키는 동적으로 얻어야 할 수 있으므로 일단 주석 처리
     };
 
     try {
         const response = await axios.post(apiUrl, formData, { headers: headers });
         const data = response.data;
+        // console.log(`Lotte Cinema API response for cinemaId ${cinemaId} on ${date}:`, JSON.stringify(data, null, 2)); // 디버깅용 출력 제거
 
         let movieSchedules = [];
         if (data && data.PlaySeqs && Array.isArray(data.PlaySeqs.Items)) {
@@ -55,15 +55,15 @@ async function fetchLotteSchedule(cinemaId, date) {
         }
         return movieSchedules;
     } catch (error) {
-        console.error(`Error fetching Lotte Cinema schedule for ${cinemaId} on ${date}:`, error.message);
+        console.error(`Error fetching Lotte Cinema schedule for site ${cinemaId} on ${date}:`, error.message);
         return [];
     }
 }
 
 async function crawlLotte() {
     const branches = [
-        { name: "JejuYeonDong", id: "1|0007|6010" }, // 파일 이름을 영어로 변경
-        { name: "Seogwipo", id: "1|0007|9013" } // 파일 이름을 영어로 변경
+        { name: "JejuYeonDong", id: "1|0007|6010" },
+        { name: "Seogwipo", id: "1|0007|9013" }
     ];
 
     const dates = [];
@@ -74,7 +74,7 @@ async function crawlLotte() {
         const year = d.getFullYear();
         const month = String(d.getMonth() + 1).padStart(2, '0');
         const day = String(d.getDate()).padStart(2, '0');
-        dates.push(`${year}${month}${day}`); // Lotte Cinema date format: YYYYMMDD
+        dates.push(`${year}-${month}-${day}`); // Lotte Cinema API 호출용 형식: YYYY-MM-DD
     }
 
     const lotteData = {};
@@ -83,16 +83,17 @@ async function crawlLotte() {
         for (const date of dates) {
             console.log(`Fetching schedules for Lotte Cinema ${branch.name} on ${date}...`);
             const movieSchedules = await fetchLotteSchedule(branch.id, date);
-            allSchedulesForBranch[date] = movieSchedules;
+            // crawlAll.js에서 사용할 YYYYMMDD 형식으로 날짜 키 변환
+            const formattedDate = date.replace(/-/g, '');
+            allSchedulesForBranch[formattedDate] = movieSchedules;
         }
-        lotteData[branch.name] = allSchedulesForBranch; // 지점 이름(영어)으로 데이터 저장
+        lotteData[branch.name] = allSchedulesForBranch;
     }
-    return lotteData; // 크롤링 결과 반환
+    return lotteData;
 }
 
 if (require.main === module) {
     crawlLotte().then(data => {
-        // 이 부분은 crawlAll.js에서 처리할 것이므로, 여기서는 간단히 로그만 남깁니다.
         console.log('Lotte Cinema crawling completed. Data:', JSON.stringify(data, null, 2));
     });
 }
