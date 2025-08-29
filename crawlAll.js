@@ -90,7 +90,7 @@ async function crawlAll() {
 
     // TODO: 한림작은영화관 크롤러 추가
 
-    const filePath = path.join(__dirname, 'data', 'movies.json');
+    const filePath = path.join(__dirname, 'jejumovie-frontend', 'public', 'movies.json');
     fs.writeFileSync(filePath, JSON.stringify(finalMovieData, null, 2), 'utf8');
     console.log(`All movie data saved to ${filePath}`);
 }
