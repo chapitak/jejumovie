@@ -1,4 +1,4 @@
 [build]
-  base = "jejumovie-frontend"
+  
   command = "npm run build"
   publish = "jejumovie-frontend/.next"
