@@ -16,12 +16,16 @@ export default async function Home() {
   let error: string | null = null;
 
   try {
-    const filePath = path.join(process.cwd(), '..', 'data', 'movies.json');
+    const filePath = path.join(process.cwd(), 'public', 'movies.json');
     const fileContents = await fs.readFile(filePath, 'utf8');
     movies = JSON.parse(fileContents);
-  } catch (e: any) {
+  } catch (e: unknown) {
     console.error('Failed to read or parse movies.json:', e);
-    error = e.message;
+    if (e instanceof Error) {
+      error = e.message;
+    } else {
+      error = String(e);
+    }
   }
 
   // 영화 목록을 버튼 개수가 적은 순서대로 정렬

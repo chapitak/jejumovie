@@ -30,8 +30,8 @@ jobs:
       # Netlify CLI를 사용하여 배포합니다.
       # Netlify CLI를 설치하고, NETLIFY_AUTH_TOKEN과 NETLIFY_SITE_ID를 GitHub Secrets에 추가해야 합니다.
       # 예시:
-      # run: npm install netlify-cli -g && netlify deploy --prod --dir=./jejumovie-frontend/.next
-      # env:
-      #   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-      #   NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      run: echo "Netlify deployment step goes here. Please configure NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID in GitHub Secrets."
+      run: npm install netlify-cli -g && netlify deploy --prod --dir=./jejumovie-frontend/.next
+      env:
+         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      #run: echo "Netlify deployment step goes here. Please configure NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID in GitHub Secrets."
