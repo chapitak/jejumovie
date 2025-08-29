@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm install --prefix .. && node ../crawlAll.js && next build && cp -R ./.next ../build_output",
+    "build": "npm install --prefix .. && node ../crawlAll.js && next build",
     "start": "next start",
     "lint": "eslint"
   },
